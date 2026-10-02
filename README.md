@@ -1,25 +1,49 @@
-## B2B Distribution Analytics & Decision Support System
-# 1.1 Overview
-Inspired by operational and inventory analytics work during a data analyst internship, where I worked with operational/Tally data, inventory records, reporting, and business processes. I have built this synthetic B2B distribution analytics system to understand how transactional data can support management decisions.
+# B2B Distribution Analytics & Decision Support System
 
-The project models sales, inventory, customer collections, and employee incentives across a 24-month period. I have used Python, SQL, and Power BI to identify revenue drivers, inventory risk, receivables exposure, and operational priorities. 
-The incentive component is also modeled in the project, as I worked with the founder on the TDL incentive system to encourage and motivate reps.
+## 1.1 Overview
 
-# 1.2 Object of the project
-The primary objective of this project is to bridge the gap between theoretical concepts and their practical implementation in industry by building an end-to-end **business analytics and decision support system** that converts operational data into actionable management insights.
+B2B distributors manage large product catalogs, recurring retailer orders, inventory movement, credit-based sales, collections, and employee incentives. Looking at these processes separately can make it difficult for management to understand where money is being generated, tied up, or put at risk.
 
-# 1.3 Understanding the problem
-Even if a distributor may have hundreds of transactions and thousands of items, this information does not always indicate how the data aids in the organization's decision-making:
-- Which products are actually driving revenue?
-- Which inventory is sitting unused?
-- Which products need to be reordered?
-- Which customers are paying late?
-- How much money is currently tied up in receivables?
-- How much inventory captital is sitting idle?
-- How much incentive should employees recieve?
-- Which operational areas require attention?
+This project builds a synthetic B2B distribution analytics system that brings these operational areas together and turns transaction-level data into business insights and management decisions.
 
-# 1.4 Methodology
+The project is inspired by operational and inventory analytics work observed during a data analyst internship in the building-materials distribution sector. All data, names, values, and business entities used in this project are fictional and created for portfolio purposes.
+
+## 1.2 Project Objective
+
+The goal is to build an end-to-end analytics workflow that answers questions such as:
+
+Which products and categories are driving revenue?
+Which products are selling quickly and may require replenishment?
+Which products are becoming slow-moving or dead stock?
+Where is inventory getting tied up?
+Which customers are paying late?
+How much revenue is still pending collection?
+How are sales and incentive payouts distributed?
+What operational patterns should management investigate?
+
+The final output is a decision-support layer that connects business metrics with possible management actions.
+
+
+## 1.3 Organizational Structure
+
+The business operates across:
+-Premium & Economy Tiles
+-Premium & Economy Granite
+-Marble
+-Sanitaryware & CP Fittings
+-Adhesives & Installation Accessories
+
+The dataset covers:
+October 1, 2024 – September 30, 2026, with an analytical as-of date of September 30, 2026.
+
+The synthetic environment contains approximately:
+-120 SKUs
+-120 customers
+-6,000–8,000 orders
+-9 employees
+-24 months of operational activity
+
+## 1.4 Methodology
 The methodology followed a systematic and structured approach to ensure accurate data analysis and meaningful outcomes. Below represents the 
 ```text
 RAW OPERATIONAL DATA
@@ -58,4 +82,5 @@ The workflow begins by collecting raw inventory and sales data, then cleaning an
                  AUTOMATION
 ```
 
-                 
+### Key Insights
+--------------------           
